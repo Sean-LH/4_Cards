@@ -24,14 +24,14 @@
 #project{
   width: 90vw;
   margin: auto;
+  margin-top: 5em;
 }
-#header{
+/* #header{
   border: 2px red solid;
-  /* display: flex;
-  flex-direction: column; */
-}
+
+} */
 #body{
-  border: 2px green solid;
+  /* border: 2px green solid; */
   margin-top: 3em;
   display: grid;
   gap: 1.5em;
@@ -87,6 +87,15 @@ h2{
   #project{
     width: 75vw;
     margin: auto;
+    margin-top: 5em;
+  }
+  #header{
+    /* border: 2px red solid; */
+    width: 33em;
+    margin: auto;
+  }
+  #sub{
+    text-align: center;
   }
   #body{
     display: grid;
