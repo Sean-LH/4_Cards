@@ -5,6 +5,9 @@ import Card from "./Card"
 // mapped through using the map method. This is part of using typescript and React.
 
 import supervisor from "../../images/icon-supervisor.svg"
+import builder from "../../images/icon-team-builder.svg"
+import karma from "../../images/icon-karma.svg"
+import calculator from "../../images/icon-calculator.svg"
 type Props = {}
 
 type Cards = {
@@ -27,21 +30,21 @@ const allCards: Cards[] = [
     id: 2,
     title: 'Team Builder',
     info: "Scans our talent network to create the optimal team for your project",
-    image: "/images/icon-team-builder.svg",
+    image: builder,
     alt: "red house"
   },
   {
     id: 3,
     title: "Karma",
     info: "Regularly evaluates our talent to ensure quality",
-    image: "/images/icon-karma.svg",
+    image: karma,
     alt: "light bulb"
   },
   {
     id: 4,
     title: "Calculator",
     info: "Uses data from past projects to provide better delivery estimates",
-    image: "/images/icon-calculator.svg",
+    image: calculator,
     alt: "computer image"
   }
 ]
