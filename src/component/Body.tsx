@@ -3,6 +3,8 @@
 import Card from "./Card"
 // I'm getting the idea to input the card info into an array of objects then have 
 // mapped through using the map method. This is part of using typescript and React.
+
+import supervisor from "/Users/sean_h//development/frontEnd/four-card-feature-section/images/icon-supervisor.svg"
 type Props = {}
 
 type Cards = {
@@ -18,7 +20,7 @@ const allCards: Cards[] = [
     id:1,
     title: "Supervisor",
     info: "Monitors activity to identify project roadblocks",
-    image: "/images/icon-supervisor.svg",
+    image: supervisor,
     alt: 'magnifying glass'
   },
   {
